@@ -1,8 +1,27 @@
 aid: versatileai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/versatileai.png
 name: versatile.ai
-description: versatile.ai is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Versatile is a construction-technology company building AI-powered crane
+  intelligence for jobsites, primarily serving steel erectors and general
+  contractors. Its CraneView hardware device attaches to a crane's hook block
+  and passively captures operational data, which the Control Center software
+  turns into real-time insight on pace, progress, productivity, and delays
+  without asking crews to change how they work. The company is backed by Insight
+  Partners. As of this profile Versatile publishes no public API, SDK, or
+  developer platform; this record captures its identity, published web
+  properties, and probed domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/versatileai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Construction
+- Construction Technology
+- Artificial Intelligence
+- Crane Intelligence
+- Jobsite Analytics
+- IoT
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.versatile.ai/
+- type: Blog
+  url: https://www.versatile.ai/blog
+- type: Support
+  url: https://knowledge.versatile.ai/
+- type: PrivacyPolicy
+  url: https://www.versatile.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.versatile.ai/terms-of-service
+- type: DomainSecurity
+  url: security/versatileai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
