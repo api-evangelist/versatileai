@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/versatileai.png
-name: versatile.ai
+name: Versatile
 description: >-
   Versatile is a construction-technology company building AI-powered crane
   intelligence for jobsites, primarily serving steel erectors and general
@@ -59,6 +59,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: HelpCenter
+  url: https://knowledge.versatile.ai/
+- type: Login
+  url: https://app.versatile.ai/
+- type: SecondaryMarket
+  url: https://forgeglobal.com/versatile_stock/
 - type: Website
   url: https://www.versatile.ai/
 - type: Blog
