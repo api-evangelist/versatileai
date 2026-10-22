@@ -3,7 +3,7 @@ method: searched
 checked:
 - https://cloudsecurityalliance.org/star/registry
 - https://eucoc.cloud/en/public-register/list-of-adherent-services
-- procore/integrations/procore-integration-edges.yml
+- mirror
 edges:
 - partner_name: Cloud Security Alliance STAR Registry
   partner: null
@@ -35,22 +35,6 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
-- partner_name: Procore (own)
-  partner: procore
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://marketplace.procore.com/apps/versatile
-  mirror_of: procore/integrations/procore-integration-edges.yml
-  apps:
-  - Versatile
-  listing_count: 1
-  detected: '2026-10-14'
-  detected_by: mirror-platform-listings.py
-  category: Field Communications; Field Productivity; Resource Management
 source:
-- procore/integrations/procore-integration-edges.yml
+- https://cloudsecurityalliance.org/star/registry
+- https://eucoc.cloud/en/public-register/list-of-adherent-services
